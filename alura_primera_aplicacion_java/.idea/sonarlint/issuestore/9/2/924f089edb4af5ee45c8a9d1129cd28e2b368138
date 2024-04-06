@@ -1,0 +1,14 @@
+
+^
+java:S1854	"BRemove this useless assignment to local variable "notaDePelicula".(Ú§Öj8£¿ü¥ë1
+L	java:S106"+Replace this use of System.out by a logger.(ºùŸâúÿÿÿÿ8¥¿ü¥ë1
+G	java:S106"+Replace this use of System.out by a logger.(©ğÿ¬8¦¿ü¥ë1
+W
+java:S1481"5Remove this unused "incluidoEnElPlan" local variable.(Ÿ²öüÿÿÿÿ8¨¿ü¥ë1
+O
+java:S1481	"3Remove this unused "notaDePelicula" local variable.(Ú§Öj8¨¿ü¥ë1
+G	java:S106"+Replace this use of System.out by a logger.(¦ĞôÛ8©¿ü¥ë1
+L	java:S106"+Replace this use of System.out by a logger.(Ÿêİúÿÿÿÿ8ª¿ü¥ë1
+X	java:S125"<This block of commented-out lines of code should be removed.(õ±½8¬¿ü¥ë1
+L	java:S1062"+Replace this use of System.out by a logger.(ÓÔûÜúÿÿÿÿ8®¿ü¥ë1
+G	java:S1067"+Replace this use of System.out by a logger.(˜Û¯ó8±¿ü¥ë1

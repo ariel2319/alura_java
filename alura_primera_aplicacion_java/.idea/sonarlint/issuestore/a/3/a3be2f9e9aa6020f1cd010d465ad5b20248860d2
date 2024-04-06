@@ -1,0 +1,8 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(€Öÿ¥ùÿÿÿÿ8å…Í§ë1J$31af4888-5335-4a61-8ac2-8655e4995001
+m	java:S106	"+Replace this use of System.out by a logger.(ÃÍù×8š†Í§ë1J$64ad63f8-845d-47c3-916c-0d85d93535a9
+m
+java:S3457"%String contains no format specifiers.(Ñ¡§‚ıÿÿÿÿ8œ†Í§ë1J$07048b9e-e3e3-4e71-adc1-aab42c763231
+r	java:S106"+Replace this use of System.out by a logger.(Ñ¡§‚ıÿÿÿÿ8†Í§ë1J$0db8ce6f-1f87-4951-b9db-100dee90866d
+m	java:S106"+Replace this use of System.out by a logger.(±”‚š8†Í§ë1J$4fad19d1-e703-4b5f-96a7-222d708ff571
+r	java:S106"+Replace this use of System.out by a logger.(¥ï¼îúÿÿÿÿ8Ÿ†Í§ë1J$d102ffc4-fe86-421a-8e40-27a92fec379e
