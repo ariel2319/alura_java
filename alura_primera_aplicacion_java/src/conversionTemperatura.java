@@ -1,7 +1,10 @@
+import java.util.ArrayList;
 import java.util.Scanner;
+import java.io.IOException;
 
 public class conversionTemperatura {
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws IOException, InterruptedException {
         int i = 1;
         while (i == 1) {
             Scanner entrada = new Scanner(System.in);
@@ -19,6 +22,7 @@ public class conversionTemperatura {
                 float conversion = (temperatura - 32) * 5 / 9;
                 System.out.println(String.format("%.2f ° Celsius", conversion));
             }
+
         }
     }
 }
