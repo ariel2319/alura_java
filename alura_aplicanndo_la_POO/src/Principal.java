@@ -9,14 +9,19 @@ public class Principal {
         miPelicula.duracionEnMinutos = 105;
         miPelicula.incluidoEnElPlan = true;
 
-        System.out.println("Mi Pelicula: " + miPelicula.name + ", fue lanzada en : " + miPelicula.fechaLanzamiento + ", con una duracion de :" + miPelicula.duracionEnMinutos + "min");
+        miPelicula.muestraFichaTecnica();
+        miPelicula.evalua(10);
+        miPelicula.evalua(12);
+        System.out.println("Media = " + miPelicula.calculaMedia());
 
 
 
         Pelicula otraPelicula = new Pelicula();
 
         otraPelicula.name = "Matrix";
-        System.out.println("Otra Pelicula: " + otraPelicula.name);
+        otraPelicula.muestraFichaTecnica();
+
+        //System.out.println("Otra Pelicula: " + otraPelicula.name);
 
     }
 }
