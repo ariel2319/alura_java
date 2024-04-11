@@ -1,0 +1,6 @@
+
+з
+java:S1450"_Remove the "incluidoEnElPlan" field and declare it as a local variable in the relevant methods.(нЁох¤    8▐░ЬЇь1J$dd33b4a5-315b-40df-af3f-14ff7ce6d9c5
+r	java:S106+"+Replace this use of System.out by a logger.(їр┌Э¤    8╕нюЄь1J$a4af5cf0-57a9-4b29-9437-2cc0c56393fc
+|
+java:S1068"4Remove this unused "incluidoEnElPlan" private field.(нЁох¤    8ЖЎИЇь1J$9dd2c1cc-6703-4716-8939-425774aa491c
