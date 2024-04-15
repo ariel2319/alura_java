@@ -1,9 +1,8 @@
 
-ƒ	java:S125
-"<This block of commented-out lines of code should be removed.(¦©Ââøÿÿÿÿ8“×—Õí1J$04dd8ee3-8d25-4761-b74a-1fe0bdd4c066
-~	java:S125"<This block of commented-out lines of code should be removed.(ÿ¨¶³8”×—Õí1J$b6c8708f-08c7-4146-bdda-d22050f3d6a5
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÂšÂüÿÿÿÿ8”×—Õí1J$22cd2dac-0c2c-4f26-8a08-86f59b22a2d2
-}	java:S125"<This block of commented-out lines of code should be removed.(Œˆİ8•×—Õí1J$d20bfdee-9eb2-4b7d-9be7-d0a319cf6d76
-l	java:S106"+Replace this use of System.out by a logger.(Ê°8–×—Õí1J$8979fff2-6759-49f4-a3d1-55248dd299c0
-m	java:S106"+Replace this use of System.out by a logger.(üÌÿÆ8–×—Õí1J$8bbbf45d-26cf-44f6-bd4c-92c9d774c814
-F	java:S106!"+Replace this use of System.out by a logger.(êíè`8†²˜Õí1
+l	java:S106"+Replace this use of System.out by a logger.(Ê°8ÎÆ€ìí1J$224d9b0b-9200-4a06-b8cb-d89b29aed8f3
+m	java:S106"+Replace this use of System.out by a logger.(üÌÿÆ8ÏÆ€ìí1J$54d26c71-2218-4203-850f-b7c535f7ced6
+l	java:S106 "+Replace this use of System.out by a logger.(êíè`8ÏÆ€ìí1J$00c15798-db3b-4f63-88b9-b660f114812e
+r	java:S106+"+Replace this use of System.out by a logger.(×½ì´ıÿÿÿÿ8ĞÆ€ìí1J$f495a779-ee73-4652-b810-9f9ce8ff3fc5
+‰
+java:S3457."AFormat specifiers should be used instead of string concatenation.(–şøãûÿÿÿÿ8ÒÆ€ìí1J$69c8de78-fb93-4a9f-8c99-13ef9f29fd23
+r	java:S106."+Replace this use of System.out by a logger.(–şøãûÿÿÿÿ8ÒÆ€ìí1J$b6a2d5b8-1add-42d4-9cf7-8d56240a4c94
