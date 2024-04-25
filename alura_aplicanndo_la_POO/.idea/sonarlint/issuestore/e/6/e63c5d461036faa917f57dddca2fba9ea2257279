@@ -1,8 +1,11 @@
 
-l	java:S106"+Replace this use of System.out by a logger.(Ê°8ÎÆ€ìí1J$224d9b0b-9200-4a06-b8cb-d89b29aed8f3
-m	java:S106"+Replace this use of System.out by a logger.(üÌÿÆ8ÏÆ€ìí1J$54d26c71-2218-4203-850f-b7c535f7ced6
-l	java:S106 "+Replace this use of System.out by a logger.(êíè`8ÏÆ€ìí1J$00c15798-db3b-4f63-88b9-b660f114812e
-r	java:S106+"+Replace this use of System.out by a logger.(×½ì´ıÿÿÿÿ8ĞÆ€ìí1J$f495a779-ee73-4652-b810-9f9ce8ff3fc5
+l	java:S106"+Replace this use of System.out by a logger.(Ê°8ÎÆ€ìí1J$30366ae9-e828-44f6-ad95-8e40bcfc3276
+m	java:S106"+Replace this use of System.out by a logger.(üÌÿÆ8ÏÆ€ìí1J$93536e6b-837f-4647-8a7a-10da5483308e
+l	java:S106 "+Replace this use of System.out by a logger.(êíè`8ÏÆ€ìí1J$0c22da1c-a842-4b02-b644-daaab77deb19
+r	java:S106+"+Replace this use of System.out by a logger.(×½ì´ıÿÿÿÿ8ĞÆ€ìí1J$07d7499b-7fa7-4228-aef1-3eb861b15ccb
 ‰
-java:S3457."AFormat specifiers should be used instead of string concatenation.(–şøãûÿÿÿÿ8ÒÆ€ìí1J$69c8de78-fb93-4a9f-8c99-13ef9f29fd23
-r	java:S106."+Replace this use of System.out by a logger.(–şøãûÿÿÿÿ8ÒÆ€ìí1J$b6a2d5b8-1add-42d4-9cf7-8d56240a4c94
+java:S3457."AFormat specifiers should be used instead of string concatenation.(–şøãûÿÿÿÿ8ÒÆ€ìí1J$a15ea025-9439-4fbd-852f-0b21ecd5757c
+r	java:S106."+Replace this use of System.out by a logger.(–şøãûÿÿÿÿ8ÒÆ€ìí1J$1b95532e-fc53-491e-945d-87ca343ddb74
+‰
+java:S34577"AFormat specifiers should be used instead of string concatenation.(Ùº˜Ãıÿÿÿÿ8¨©³³ñ1J$1c95db73-7b61-4eb8-8e33-aa5342936f53
+r	java:S1067"+Replace this use of System.out by a logger.(Ùº˜Ãıÿÿÿÿ8†ß±³ñ1J$b4b27fa5-ab88-4772-9b18-600e0e840078

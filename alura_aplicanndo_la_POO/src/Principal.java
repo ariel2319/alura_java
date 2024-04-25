@@ -52,6 +52,8 @@ public class Principal {
         episodio.setSerie(casaDragon.getName());
         episodio.setTotalVisualizaciones(1);
 
+        System.out.printf(episodio.getNombre()+ " -> ");
         filtroRecomendacion.filtro(episodio);
+
     }
 }
