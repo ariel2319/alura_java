@@ -1,5 +1,5 @@
 
-m	java:S1062"+Replace this use of System.out by a logger.(µˆ•Ÿ8¾Î×¹ñ1J$92500ffe-59a5-4108-935c-0545bdc4fce9
-m	java:S1063"+Replace this use of System.out by a logger.(ÉÎÆ¦8¿Î×¹ñ1J$27c28e3c-e4a6-4474-9640-98be0ae1b564
+m	java:S1068"+Replace this use of System.out by a logger.(µˆ•Ÿ8¾Î×¹ñ1J$369bdb0a-82dd-4237-b10b-3bae73bf2431
+m	java:S1069"+Replace this use of System.out by a logger.(ÉÎÆ¦8¿Î×¹ñ1J$9757934b-cf2d-4421-9536-2056ea19ff6c
 w
-java:S1128"4Remove this unused import 'java.text.DecimalFormat'.(¤°Ó˜8Ÿæºñ1J$2ececbc6-0e36-4a03-a9bb-33a5fc0a72b4
+java:S1128"4Remove this unused import 'java.text.DecimalFormat'.(¤°Ó˜8Ÿæºñ1J$e59b329a-7c61-4706-be05-c6bb6627232a
