@@ -1,3 +1,5 @@
+package com.alura.screenmatch.principal;
+
 import com.alura.screenmatch.calculos.CalculadoraDeTiempo;
 import com.alura.screenmatch.calculos.FiltroRecomendacion;
 import com.alura.screenmatch.modelos.Episodio;
@@ -58,8 +60,13 @@ public class Principal {
         System.out.println("Tamaño de la LISTA => " + listaDePelicula.size() );
         System.out.println("La primer película es => " + listaDePelicula.get(0).getNombre() + " y la 2da es => " + listaDePelicula.get(1).getNombre());
 
-        System.out.println("lista de pelis => " + listaDePelicula);
-        System.out.println(listaDePelicula.get(0).toString());
+         // System.out.println("lista de pelis => " + listaDePelicula);
+        // System.out.println(listaDePelicula.get(0).toString());
+        System.out.println("Lista de PELIS (forEach)");
+        //dos opciones para imprimir con forEACH...
+        listaDePelicula.forEach(pelis -> System.out.println(pelis));
+        //Method Reference "::println"....
+        listaDePelicula.forEach(System.out::println);
 
 
     }

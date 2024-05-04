@@ -1,10 +1,6 @@
 
->
-src/Audio.java,3\2\321f7917a307bff7820e320b060e722dc66e05e1
 a
 1src/com/aluracursos/radioalura/modelos/Audio.java,7\7\77387d30ad46453f49dd6fcaa370fa5b6653a25c
-e
-5src/com/aluracursos/radioalura/modelos/Canciones.java,e\6\e6d97ebb6bfa75890dd9a65366723164c6991954
 c
 3src/com/aluracursos/radioalura/modelos/Cancion.java,c\9\c963afcd99fc4c599ee1cc121fa794ab829f65e2
 c
