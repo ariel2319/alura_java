@@ -1,6 +1,6 @@
 package com.alura.superMarket.modelos;
 
-public class Producto {
+public class Producto implements Comparable<Producto> {
 
     private String nombre;
     private double precio;
@@ -28,7 +28,13 @@ public class Producto {
 
     @Override
     public String toString() {
-        return "Producto: " + nombre + "; Valor: $" + precio;
+        return "Producto: " + nombre + " - Valor: $" + precio + ";";
+    }
+
+    @Override
+    public int compareTo(Producto otroProducto) {
+        // TODO Auto-generated method stub
+        return this.getPrecio().compareTo(otroProducto.getPrecio());
     }
 
 }
