@@ -2,14 +2,13 @@ package com.alura.screenmatch.modelos;
 
 import java.text.DecimalFormat;
 
-public class Titulo {
+public class Titulo implements Comparable<Titulo> {
     private String nombre;
     private int fechaDeLanzamiento;
     private boolean incluidoEnElPlan;
     private double sumaDeLasEvaluaciones;
     private int totalDeEvaluaciones;
     private int duracionEnMinutos;
-
 
     public Titulo(String nombre, int fechaDeLanzamiento) {
         this.nombre = nombre;
@@ -66,4 +65,12 @@ public class Titulo {
         return sumaDeLasEvaluaciones / totalDeEvaluaciones;
 
     }
+
+    @Override
+    public int compareTo(Titulo otrTitulo) {
+        // TODO Auto-generated method stub
+        return this.getNombre().compareTo(otrTitulo.getNombre());
+    }
+
+    
 }

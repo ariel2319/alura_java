@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Collections;
+/* import java.util.Collections; */
 import java.util.Comparator;
 import java.util.Scanner;
 
@@ -49,8 +49,6 @@ public class App {
         } while (again == 1);
 
         System.out.println("\n\n\tCARRITO de " + nombre + " =");
-
-        // ! TODO => ordenar el carrito por valor de las compras
 
         //System.out.println("CaRRITO ?> " + carrito);
         carrito.sort(Comparator.comparing(Producto::getPrecio));
