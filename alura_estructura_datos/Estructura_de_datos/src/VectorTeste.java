@@ -13,7 +13,14 @@ public class VectorTeste {
         System.out.println(lista.tamanio());
         System.out.println("Habemus alumno? " + lista.contener(e3));
 
-        System.out.println("Hay o no hay alumnos? " + lista.pegar(1000));
+        System.out.println("Hay o no hay alumnos? " + lista.pegar(1));
+
+        lista.agregarAlumno(1, e3);
+        System.out.println(lista);
+
+        lista.remove(0);
+        System.out.println(lista);
+        System.out.println(lista.tamanio());
 
     }
 }
