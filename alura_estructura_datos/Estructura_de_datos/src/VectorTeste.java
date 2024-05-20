@@ -22,5 +22,10 @@ public class VectorTeste {
         System.out.println(lista);
         System.out.println(lista.tamanio());
 
+        for (int i = 0; i <= 10; i++) {
+            Estudiante testGuarEstudiante = new Estudiante("Pedrito " + i);
+            lista.adicionar(testGuarEstudiante);
+        }
+        System.out.println(lista);
     }
 }

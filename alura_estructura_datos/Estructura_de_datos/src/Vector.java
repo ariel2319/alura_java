@@ -2,17 +2,33 @@ import java.util.Arrays;
 
 public class Vector {
 
-    private Estudiante[] estudiantes = new Estudiante[10];
+    private int tamanioArray = 10;
+    private Estudiante[] estudiantes = new Estudiante[tamanioArray];
     private int totalDeEstudiantes = 0;
+
+    // MODIFICAR EL TAMAÑO DEL ARRAY
+    // !en JAVA NO se puede cambiar el tamaño del array, pero si podemos copiar el
+    // !contenido de un Array a otro nuevo con mayor capacidad
+    private void guardarEspacio() {
+        if (totalDeEstudiantes == estudiantes.length) {
+            Estudiante[] estudiantesAux = new Estudiante[estudiantes.length * 2];
+            for (int i = 0; i < estudiantesAux.length; i++) {
+                estudiantesAux[i] = estudiantes[i];
+            }
+            this.estudiantes = estudiantesAux;
+        }
+    }
 
     // añadir estudiante a continuación del último
     public void adicionar(Estudiante estudiante) {
+        this.guardarEspacio();
         this.estudiantes[totalDeEstudiantes] = estudiante;
         totalDeEstudiantes++;
     }
 
     // añadir estudiante en la posición que deseo
     public void agregarAlumno(int posicion, Estudiante estudiante) {
+        this.guardarEspacio();
         if (!posicionValida(posicion)) {
             throw new IllegalArgumentException("posición Inválida, como eia..");
         }
