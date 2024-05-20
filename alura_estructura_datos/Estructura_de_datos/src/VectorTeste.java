@@ -3,7 +3,7 @@ public class VectorTeste {
         Estudiante e1 = new Estudiante("Ariel");
         var e2 = new Estudiante("Pedro");
         var e3 = new Estudiante("Javier");
-
+ 
         Vector lista = new Vector();
         System.out.println(lista.tamanio());
         lista.adicionar(e1);
@@ -22,7 +22,7 @@ public class VectorTeste {
         System.out.println(lista);
         System.out.println(lista.tamanio());
 
-        for (int i = 0; i <= 10; i++) {
+        for (int i = 0; i <= 50; i++) {
             Estudiante testGuarEstudiante = new Estudiante("Pedrito " + i);
             lista.adicionar(testGuarEstudiante);
         }

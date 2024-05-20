@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Vector {
-
+ 
     private int tamanioArray = 10;
     private Estudiante[] estudiantes = new Estudiante[tamanioArray];
     private int totalDeEstudiantes = 0;
@@ -12,7 +12,7 @@ public class Vector {
     private void guardarEspacio() {
         if (totalDeEstudiantes == estudiantes.length) {
             Estudiante[] estudiantesAux = new Estudiante[estudiantes.length * 2];
-            for (int i = 0; i < estudiantesAux.length; i++) {
+            for (int i = 0; i < estudiantes.length; i++) {
                 estudiantesAux[i] = estudiantes[i];
             }
             this.estudiantes = estudiantesAux;
